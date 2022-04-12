@@ -1,12 +1,3 @@
-# Natural Language Processing in TensorFlow
-
--   **WEEK 1** - Sentiment in text
-
--   **WEEK 2** - Word Embeddings
-
--   **WEEK 3** - Sequence models
-
--   **WEEK 4** - Sequence models and literature
 # natural-language-processing-tensorflow
 Natural Language processing in tensorflow
 
@@ -252,7 +243,91 @@ The neural Network is kind a function that we can a data and label it give a rul
 * [https://www.coursera.org/lecture/nlp-sequence-models/long-short-term-memory-lstm-KXoay](https://www.coursera.org/lecture/nlp-sequence-models/long-short-term-memory-lstm-KXoay)
 
 
+## Generation A New Text Process
 
+![image](images/58.png)
+
+### Preparing the training data
+
+![image](images/59.png)
+
+![image](images/60.png)
+
+![image](images/61.png)
+
+![image](images/62.png)
+
+![image](images/63.png)
+
+![image](images/64.png)
+
+![image](images/65.png)
+
+### More on the training data
+
+![image](images/66.png)
+
+![image](images/67.png)
+
+![image](images/68.png)
+
+### Finding what the next word should be
+
+![image](images/69.png)
+
+### Example of Text Generated
+
+![image](images/70.png)
+
+### Use Bidirectional LSTM
+
+![image](images/71.png)
+
+### Example After Training With Bidirectional LSTM
+
+![image](images/72.png)
+
+### Predicting a word
+
+![image](images/73.png)
+
+* Tokenize the word to predicting
+  
+ ![image](images/74.png)
+
+ ![image](images/75.png)
+
+* Padded A Sequence
+
+![image](images/76.png)
+
+![image](images/77.png)
+
+* Passed To Model For Prediction
+  
+![image](images/78.png)
+
+* Reverse Look out
+
+![image](images/79.png)
+
+* Generation By Doing Ten Time
+
+![image](images/80.png)
+
+* Result
+
+![iamge](images/81.png)
+
+### Download A Corpus
+
+![image](images/82.png)
+
+### Looking into the code
+
+![image](images/83.png)
+
+![iamge](images/84.png)
 
 ## Userful Link
 
@@ -263,3 +338,5 @@ The neural Network is kind a function that we can a data and label it give a rul
 * [https://github.com/tensorflow/datasets/tree/master/docs/catalog](https://github.com/tensorflow/datasets/tree/master/docs/catalog) 
 
 * [https://www.tensorflow.org/datasets/catalog/overview](https://www.tensorflow.org/datasets/catalog/overview)
+
+* [https://www.tensorflow.org/text/tutorials/text_generation](https://www.tensorflow.org/text/tutorials/text_generation)
